@@ -2,7 +2,8 @@ import React from 'react'
 import './header.css'
 import JClogo from '../../assets/jc_logo_v2.svg'
 import crown from '../../assets/crown.svg'
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Search, Mic, User } from 'lucide-react';
+
 
 const Header = () => {
 
@@ -29,7 +30,15 @@ const Header = () => {
                 </nav>
 
                 <div className='search'>
-                    <div></div>
+                    < div className='searchBox'>
+                        <Search size={18} className='header-icon'/> 
+                        <input type="text" placeholder='Movies, Shows and more' />
+                         <Mic size={22} className='header-icon' />
+                    </div>
+
+                    <div className='user'>
+                        <User size={30} />
+                    </div>
                 </div>
             </header>
         </>
