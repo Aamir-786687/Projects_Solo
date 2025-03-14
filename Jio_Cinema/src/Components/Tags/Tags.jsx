@@ -14,11 +14,16 @@ const Tags = () => {
         <>
             <div className='tags'>
 
-                {
+                {/* {
                     tags.map((tag) => {
                         return <button className='tag'> {tag}</button>
                     })
-                }
+                } */}
+
+                {tags.map((tag, index) => (
+                    <button className='tag'key={index}>{tag}</button>
+                ))}
+
 
             </div>
         </>

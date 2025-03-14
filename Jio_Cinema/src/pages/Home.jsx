@@ -25,7 +25,7 @@ const Home = () => {
       let favv = moviesData.filter((movie) => {
         return movie.fav === true;
       });
-      // console.log(favv)
+      console.log(favv)
       setFavMovies(favv);
 
       let drma = moviesData.filter((movie) => {
