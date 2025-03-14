@@ -1,14 +1,17 @@
 .featuresShows {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: gray; */
-
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: gray; */
+}
+.featuresShows > img {
+  height: 100%;
+  border-radius: 5px;
 }
 
-.featuresShows>img {
-    height: 100%;
-    border-radius: 5px;
-
-}
+.movieTitle{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}   

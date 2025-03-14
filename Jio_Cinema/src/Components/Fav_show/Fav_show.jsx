@@ -1,11 +1,11 @@
 import FeaturedShow from '../Featured_Show/FeaturedShow'
 import './fav_show.css'
 
-const Fav_show = () => {
+const Fav_show = (props) => {
   return (
     <>
     <section className='fav'>
-        <h1 className='title'>Your Fav Shows Now On JioHotstar</h1>
+        <h1 className='title'>{props.title}</h1>
 
         <div className='shows'>
        <FeaturedShow/>
