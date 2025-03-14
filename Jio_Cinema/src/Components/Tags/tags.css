@@ -17,5 +17,8 @@
     outline: none;
     height: 35px;
     color: white;
-
+    transition: 0.3s
+}
+.tag:hover{
+    background-color: #777777;
 }

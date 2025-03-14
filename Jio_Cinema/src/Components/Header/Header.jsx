@@ -36,9 +36,9 @@ const Header = () => {
                          <Mic size={22} className='header-icon' />
                     </div>
 
-                    <div className='user'>
+                    <button className='user'>
                         <User size={30} />
-                    </div>
+                    </button>
                 </div>
             </header>
         </>
