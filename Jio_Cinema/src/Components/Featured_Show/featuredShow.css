@@ -1,0 +1,14 @@
+.featuresShows {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+
+}
+
+.featuresShows>img {
+    height: 100%;
+    border-radius: 5px;
+
+}
