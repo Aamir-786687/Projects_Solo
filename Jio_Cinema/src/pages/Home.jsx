@@ -25,7 +25,7 @@ const Home = () => {
       let favv = moviesData.filter((movie) => {
         return movie.fav === true;
       });
-      console.log(favv)
+      // console.log(favv)
       setFavMovies(favv);
 
       let drma = moviesData.filter((movie) => {
@@ -44,16 +44,16 @@ const Home = () => {
         return movie.rating >= "8.8";
       });
       // console.log(bing);
-      setbingeWatch(bing);
+      setbingeWatch(bing.slice(0,6));
 
       let fine = moviesData.filter((movie) => {
         return movie.duration <= "130";
       });
       // console.log(fine);
-      setpeacockFinest(fine);
+      setpeacockFinest(fine.slice(0,6));
     } catch (error) {
       console.log("Error:", error);
-    }
+    }s
   }, []);
 
   return (
@@ -63,10 +63,10 @@ const Home = () => {
       <Banner />
       <Channel />
       <Fav_show title="Your Fav Shows Now On Jio Cinema" movies={favMovies}/>
-      <Fav_show title="Drama Jio Cinema" />
-      <Fav_show title="Crime Movie On Jio Cinema" />
-      <Fav_show title="Binge-Worthy Originals On Jio Cinema" />
-      <Fav_show title="Peacock's Finest On Jio Cinema" />
+      <Fav_show title="Drama Jio Cinema" movies = {dramaMovies}/>
+      <Fav_show title="Crime Movie On Jio Cinema" movies = {crimeMovies}/>
+      <Fav_show title="Binge-Worthy Originals On Jio Cinema" movies = {bingeWatch}/>
+      <Fav_show title="Peacock's Finest On Jio Cinema" movies= {peacockFinest}/>
     </>
   );
 };

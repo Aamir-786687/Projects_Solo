@@ -2,10 +2,10 @@
   "movies": [
     {
       "title": "The Shawshank Redemption",
-      "genre": "Drama",
+      "genre": "Fictional",
       "release_date": "1994-09-23",
       "rating": 9.3,
-      "thumbnail_url": "https://example.com/thumbnail1.jpg",
+      "thumbnail_url": "https://m.media-amazon.com/images/I/51R0XUE2OAL._AC_UF894,1000_QL80_.jpg",
       "director": "Frank Darabont",
       "cast": [
         "Tim Robbins",
@@ -27,7 +27,7 @@
       "genre": "Crime",
       "release_date": "1972-03-24",
       "rating": 9.2,
-      "thumbnail_url": "https://example.com/thumbnail2.jpg",
+      "thumbnail_url": "https://image.tmdb.org/t/p/original/wWJbBo5yjw22AIjE8isBFoiBI3S.jpg",
       "director": "Francis Ford Coppola",
       "cast": [
         "Marlon Brando",
@@ -49,7 +49,7 @@
       "genre": "Action",
       "release_date": "2008-07-18",
       "rating": 9.0,
-      "thumbnail_url": "https://example.com/thumbnail3.jpg",
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81IfoBox2TL.jpg",
       "director": "Christopher Nolan",
       "cast": [
         "Christian Bale",
@@ -199,7 +199,7 @@
       "fav": false
     },
     {
-      "title": "The Lord of the Rings: The Return of the King",
+      "title": "The Lord of the Rings",
       "genre": "Fantasy",
       "release_date": "2003-12-17",
       "rating": 8.9,
@@ -225,7 +225,7 @@
       "genre": "Animation",
       "release_date": "1994-06-24",
       "rating": 8.5,
-      "thumbnail_url": "https://images-cdn.ubuy.co.in/634f8adb65d5bc12a734313b-classic-popular-movies-the-shawshank.jpg",
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nP2KvFonkVUimShO9DfZiJ3YutVYnNPCAA&s",
       "director": "Roger Allers, Rob Minkoff",
       "cast": [
         "Matthew Broderick",
@@ -266,7 +266,7 @@
     },
     {
       "title": "Gladiator",
-      "genre": "Action",
+      "genre": "Drama",
       "release_date": "2000-05-05",
       "rating": 8.5,
       "thumbnail_url": "https://example.com/thumbnail12.jpg",
@@ -313,7 +313,7 @@
       "genre": "Drama",
       "release_date": "1999-12-10",
       "rating": 8.6,
-      "thumbnail_url": "https://example.com/thumbnail14.jpg",
+      "thumbnail_url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24429_p_v12_bf.jpg",
       "director": "Frank Darabont",
       "cast": [
         "Tom Hanks",
@@ -533,7 +533,7 @@
       "genre": "Action",
       "release_date": "2015-05-15",
       "rating": 8.1,
-      "thumbnail_url": "https://example.com/thumbnail24.jpg",
+      "thumbnail_url": "https://m.media-amazon.com/images/I/61Ln-qDnBnL.jpg",
       "director": "George Miller",
       "cast": [
         "Tom Hardy",
@@ -643,7 +643,7 @@
       "genre": "Biography",
       "release_date": "2001-12-21",
       "rating": 8.2,
-      "thumbnail_url": "https://example.com/thumbnail29.jpg",
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "director": "Ron Howard",
       "cast": [
         "Russell Crowe",
