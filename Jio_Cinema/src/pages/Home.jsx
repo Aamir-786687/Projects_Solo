@@ -13,6 +13,8 @@ const Home = () => {
     <Banner />
     <Channel/>
     <Fav_show/>
+    <Fav_show/>
+    <Fav_show/>
     
     </>
   )

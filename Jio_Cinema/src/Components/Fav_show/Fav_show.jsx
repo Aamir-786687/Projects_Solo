@@ -10,6 +10,10 @@ const Fav_show = () => {
         <div className='shows'>
        <FeaturedShow/>
        <FeaturedShow/>
+       <FeaturedShow/>
+       <FeaturedShow/>
+       <FeaturedShow/>
+       <FeaturedShow/>
         </div>
 
     </section>
