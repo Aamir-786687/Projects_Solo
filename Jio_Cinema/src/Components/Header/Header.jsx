@@ -34,8 +34,8 @@ const Header = (props) => {
 
           <ul className="navLinks">
             <li className="link">Home</li>
-            <li className="link">Sports</li>
             <li className="link">Movies</li>
+            <li className="link">Sports</li>
             <li className="link">TV Shows</li>
             <li className="link">More </li>
             <ChevronDown />

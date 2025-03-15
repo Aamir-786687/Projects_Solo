@@ -8,7 +8,7 @@ import ch5 from "../../assets/channel5.jpg";
 import ch6 from "../../assets/channel6.jpg";
 import ch7 from "../../assets/channel7.jpg";
 
-const Channel = () => {
+const Channel = () => { 
   return (
     <>
       <div className="channels">
