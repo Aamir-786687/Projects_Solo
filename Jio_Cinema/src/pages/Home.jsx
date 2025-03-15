@@ -58,7 +58,7 @@ const Home = () => {
 
   return (
     <>
-      <Header />
+      <Header movies={movies}/>
       <Tags />
       <Banner />
       <Channel />
