@@ -20,7 +20,7 @@
       ],
       "description": "A heartwarming tale of hope and friendship set in Shawshank Prison, where Andy Dufresne, a banker falsely convicted of murder, finds solace and redemption through perseverance and an unlikely friendship with fellow inmate Red.",
       "id": "01",
-      "fav": true
+      "fav": false
     },
     {
       "title": "The Godfather",
@@ -42,7 +42,7 @@
       ],
       "description": "A gripping saga of power, loyalty, and crime, following the Corleone family\u2019s rise and struggles in the Mafia underworld, led by patriarch Vito Corleone and his reluctant son Michael.",
       "id": "02",
-      "fav": true
+      "fav": false
     },
     {
       "title": "The Dark Knight",
@@ -64,7 +64,7 @@
       ],
       "description": "In this dark and thrilling superhero epic, Batman battles the chaos unleashed by his arch-nemesis, the Joker, while struggling with his own inner demons and the price of heroism.",
       "id": "03",
-      "fav": false
+      "fav": true
     },
     {
       "title": "Pulp Fiction",
@@ -658,7 +658,7 @@
       ],
       "description": "A gripping biographical drama about John Nash, a brilliant mathematician struggling with schizophrenia, whose groundbreaking work reshaped modern economics.",
       "id": "30",
-      "fav": true
+      "fav": false
     },
     {
       "title": "Spirited Away",
@@ -681,7 +681,8 @@
       "description": "A magical adventure following a young girl who becomes trapped in a mysterious spirit world, where she must find the courage to free herself and her parents.",
       "id": "31",
       "fav": false
-    },{
+    },
+    {
       "title": "Gangs of Wasseypur",
       "genre": "Crime",
       "release_date": "2012-06-22",
@@ -701,9 +702,168 @@
       ],
       "description": "A gripping saga of power, crime, and vengeance set in the coal mafia-ridden town of Wasseypur, spanning multiple generations.",
       "id": "32",
-      "fav": false
+      "fav": true
+    },
+    {
+      "title": "Taare Zameen Par",
+      "genre": "Drama",
+      "release_date": "2007-12-21",
+      "rating": 8.4,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/611JgDfdb7L.jpg",
+      "director": "Aamir Khan",
+      "cast": [
+        "Darsheel Safary",
+        "Aamir Khan",
+        "Tisca Chopra"
+      ],
+      "duration": 165,
+      "tags": [
+        "education",
+        "inspiration",
+        "child psychology"
+      ],
+      "description": "An 8-year-old dyslexic boy struggles in school until an unconventional teacher helps him discover his hidden potential.",
+      "id": "33",
+      "fav": true
+    },
+    {
+      "title": "Sacred Games",
+      "genre": "Crime, Thriller",
+      "release_date": "2018-07-06",
+      "rating": 8.5,
+      "thumbnail_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ecde0e70804199.5baf99ea34f28.jpg",
+      "director": "Anurag Kashyap, Vikramaditya Motwane",
+      "cast": [
+        "Saif Ali Khan",
+        "Nawazuddin Siddiqui",
+        "Radhika Apte"
+      ],
+      "duration": 16,
+      "tags": [
+        "crime",
+        "thriller",
+        "mystery"
+      ],
+      "description": "A Mumbai cop's pursuit of a criminal mastermind leads to a conspiracy with apocalyptic consequences.",
+      "id": "34",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Mirzapur",
+      "genre": "Action, Crime, Thriller",
+      "release_date": "2018-11-16",
+      "rating": 8.3,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/815P1fCHvjL._AC_UF1000,1000_QL80_.jpg",
+      "director": "Karan Anshuman, Gurmmeet Singh",
+      "cast": [
+        "Pankaj Tripathi",
+        "Ali Fazal",
+        "Divyenndu"
+      ],
+      "duration": 19,
+      "tags": [
+        "gang wars",
+        "revenge",
+        "power"
+      ],
+      "description": "A lawless town is ruled by a mafia don, and two brothers get caught in the crossfire of crime and ambition.",
+      "id": "35",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Panchayat",
+      "genre": "Comedy, Drama",
+      "release_date": "2020-04-03",
+      "rating": 8.9,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYzkwZGNkYTctZDc2MS00OWM2LWI2NTUtMTM2ZGMzMTY0N2Q1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "director": "Deepak Kumar Mishra",
+      "cast": [
+        "Jitendra Kumar",
+        "Raghubir Yadav",
+        "Neena Gupta"
+      ],
+      "duration": 16,
+      "tags": [
+        "rural life",
+        "humor",
+        "social issues"
+      ],
+      "description": "An engineering graduate takes up a low-paying government job in a rural village, leading to unexpected adventures.",
+      "id": "36",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Kota Factory",
+      "genre": "Drama",
+      "release_date": "2019-04-16",
+      "rating": 9.0,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BY2U5MjY1NWEtZDI2MS00NTlhLWEyODQtYzE0MzY3NDUyNzE3XkEyXkFqcGc@._V1_.jpg",
+      "director": "Raghav Subbu",
+      "cast": [
+        "Mayur More",
+        "Jitendra Kumar",
+        "Ranjan Raj"
+      ],
+      "duration": 15,
+      "tags": [
+        "education",
+        "student life",
+        "inspiration"
+      ],
+      "description": "A realistic take on the struggles of students preparing for the IIT entrance exam in Kota.",
+      "id": "37",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Asur",
+      "genre": "Mystery, Thriller",
+      "release_date": "2020-03-02",
+      "rating": 8.4,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDZkOGQzMjItNTliOC00NTIxLTg4ODEtNTMxZWY1OTk5ZWM0XkEyXkFqcGc@._V1_.jpg",
+      "director": "Oni Sen",
+      "cast": [
+        "Arshad Warsi",
+        "Barun Sobti",
+        "Anupriya Goenka"
+      ],
+      "duration": 16,
+      "tags": [
+        "crime",
+        "psychological thriller",
+        "mythology"
+      ],
+      "description": "A unique blend of mythology and crime, where a serial killer challenges forensic experts in a deadly mind game.",
+      "id": "38",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "The Family Man",
+      "genre": "Action, Thriller",
+      "release_date": "2019-09-20",
+      "rating": 8.7,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDc3NWMwNGMtYjc3Mi00NzU5LWFiYjgtMTJjZGE3ZmFiNzRjXkEyXkFqcGc@._V1_.jpg",
+      "director": "Raj & DK",
+      "cast": [
+        "Manoj Bajpayee",
+        "Priyamani",
+        "Sharib Hashmi"
+      ],
+      "duration": 19,
+      "tags": [
+        "spy thriller",
+        "terrorism",
+        "family drama"
+      ],
+      "description": "A middle-class man secretly works as an intelligence officer, balancing his family life with high-stakes missions.",
+      "id": "39",
+      "fav": false,
+      "Binge": true
     }
-
   ],
   "Shows": [
         {

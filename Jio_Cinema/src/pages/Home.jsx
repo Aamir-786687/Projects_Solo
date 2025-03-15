@@ -32,7 +32,7 @@ const Home = () => {
         return movie.genre === "Drama";
       });
       // console.log(drma)
-      setDramaMovies(drma);
+      setDramaMovies(drma.slice(0,6));
 
       let crim = moviesData.filter((movie) => {
         return movie.genre === "Crime";
@@ -41,7 +41,7 @@ const Home = () => {
       setCrimeMovies(crim);
 
       let bing = moviesData.filter((movie) => {
-        return movie.rating >= "8.8";
+        return movie.Binge === true;
       });
       // console.log(bing);
       setbingeWatch(bing.slice(0,6));

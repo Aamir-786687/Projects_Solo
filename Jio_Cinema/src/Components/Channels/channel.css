@@ -9,4 +9,8 @@
 }
 .channels > img{
     border-radius: 8px;
+    height: 153px;
+    width: 153px;
+    background-color: #272727;
+    color: white;
 }
