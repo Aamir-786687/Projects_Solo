@@ -1,17 +1,18 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Header from "./Components/Header/Header";
+import Movies from "./pages/Movies"; // Ensure correct import (case-sensitive)
+import Home from "./pages/Home"; // Example Home component
 
 const App = () => {
   return (
-    <BrowserRouter>
-    <Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movies" element={<Movies />} /> {/* Movies page route */}
+      </Routes>
+    </Router>
+  );
+};
 
-      <Route path='/' element={<Home/>} ></Route>
-
-    </Routes>
-  </BrowserRouter>
-  )
-}
-
-export default App
+export default App;

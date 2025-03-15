@@ -41,12 +41,25 @@
     gap:20px;
     align-items: center;
     font-weight: 500;
+    color: #888888;
 }
 .link{
-    padding: 21px 0px;
+    padding: 21px 0px
 }
+
+.navLinks .link a {
+    text-decoration: none;
+    color: #888888;
+  }
+
+  .navLinks .link a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
 .link:hover{
     border-bottom: 4px Solid #d9008d;
+    color: white;
 }
 
 
