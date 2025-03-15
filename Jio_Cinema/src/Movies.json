@@ -682,5 +682,61 @@
       "id": "31",
       "fav": false
     }
-  ]
+  ],
+  "Shows": [
+        {
+            "title": "Laughter Chef",
+            "genre": "Comedy",
+            "id": 1,
+            "thumbnail_url": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+            "fav": true,
+            "language": "Hindi"
+        },
+        {
+            "title": "Raodies",
+            "genre": "Reality",
+            "id": 2,
+            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/verticaltv-1739443658455.jpg",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6262/1741440046262-t",
+            "fav": true,
+            "language": "Hindi"
+        },
+        {
+            "title": "Pokemon",
+            "genre": "Animaition",
+            "id": 3,
+            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/pokemon-1707725560430.jpg",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6940/1734433856940-t",
+            "fav": true,
+            "language": "Hin, Eng, +2 more"
+        },
+        {
+            "title": "Sanam teri Kasam",
+            "genre": "Drama",
+            "id": 4,
+            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
+            "fav": true,
+            "language": "Hindi"
+        },
+        {
+            "title": "Big Boss",
+            "genre": "Reality",
+            "id": 5,
+            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/tv-1737455056722.jpg",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6551/1737622856551-t",
+            "fav": true,
+            "language": "Hindi"
+        },
+        {
+            "title": "Fifty Shades of Grey",
+            "genre": "Drama",
+            "id": 6,
+            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/vertical-carousel-tv_50shades-1727778969348.jpg",
+            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9124/1739443359124-t",
+            "fav": true,
+            "language": "Hin, Eng, +2 more"
+        }
+    ]
 }

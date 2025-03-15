@@ -53,7 +53,7 @@ const Home = () => {
       setpeacockFinest(fine.slice(0,6));
     } catch (error) {
       console.log("Error:", error);
-    }s
+    }
   }, []);
 
   return (
