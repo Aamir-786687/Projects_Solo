@@ -25,7 +25,7 @@ const Header = (props) => {
     <>
       <header className="header">
         <nav className="navigation">
-          <div className="logo">
+          <div className="Mlogo">
             <img src={JClogo} alt="JCLOGO" />
             <div className="premium">
               <img src={crown} alt="crown" />
@@ -35,7 +35,7 @@ const Header = (props) => {
 
           <ul className="navLinks">
             <li className="link"><Link to="/">Home</Link></li>
-            <li className="link">Movies</li>
+            <li className="link"><Link to="Movies">Movies</Link></li>
             <li className="link">Sports</li>
             <li className="link">TV Shows</li>
             <li className="link">More</li>

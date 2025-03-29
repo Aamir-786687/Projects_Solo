@@ -2,14 +2,14 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Home from "./pages/Home"
-// import MovieDetails from "./pages/MovieDetails" // Make sure this file exists
+import Movies from "./pages/Movies" 
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/movie/:id" element={<MovieDetails />} /> */}
+        <Route path="/movies" element={<Movies />} />
       </Routes>
     </Router>
   )
