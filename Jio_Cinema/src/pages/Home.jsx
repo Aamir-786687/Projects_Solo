@@ -6,54 +6,38 @@ import Banner from "../Components/Banner/Banner";
 import Fav_show from "../Components/Fav_show/Fav_show";
 
 const Home = () => {
-  let [movies, setMovies] = useState([]);
-  let [favMovies, setFavMovies] = useState([]);
-  let [dramaMovies, setDramaMovies] = useState([]);
-  let [crimeMovies, setCrimeMovies] = useState([]);
-  let [bingeWatch, setbingeWatch] = useState([]);
-  let [peacockFinest, setpeacockFinest] = useState([]);
+  const [movies, setMovies] = useState([]);
+  const [favMovies, setFavMovies] = useState([]);
+  const [dramaMovies, setDramaMovies] = useState([]);
+  const [crimeMovies, setCrimeMovies] = useState([]);
+  const [bingeWatch, setBingeWatch] = useState([]);
+  const [peacockFinest, setPeacockFinest] = useState([]);
 
-  useEffect(async () => {
-    try {
-      let movieResponse = await fetch(
-        "https://jio-cinema-ea348-default-rtdb.firebaseio.com/movies.json"
-      );
-      let moviesData = await movieResponse.json();
+  useEffect(() => {
+    const fetchMovies = async () => {
+      try {
+        const response = await fetch(
+          "https://jio-cinema-ea348-default-rtdb.firebaseio.com/movies.json"
+        );
+        const data = await response.json();
 
-      setMovies(moviesData);
+        if (data && Array.isArray(data)) {
+          setMovies(data);
 
-      let favv = moviesData.filter((movie) => {
-        return movie.fav === true;
-      });
-      // console.log(favv)
-      setFavMovies(favv);
+          setFavMovies(data.filter(movie => movie.fav === true));
+          setDramaMovies(data.filter(movie => movie.genre === "Drama").slice(0, 6));
+          setCrimeMovies(data.filter(movie => movie.genre === "Crime"));
+          setBingeWatch(data.filter(movie => movie.Binge === true).slice(0, 6));
+          setPeacockFinest(data.filter(movie => Number(movie.duration) <= 130).slice(0, 6));
+        } else {
+          console.log("Data format not supported:", data);
+        }
+      } catch (error) {
+        console.log("Error:", error);
+      }
+    };
 
-      let drma = moviesData.filter((movie) => {
-        return movie.genre === "Drama";
-      });
-      // console.log(drma)
-      setDramaMovies(drma.slice(0,6));
-
-      let crim = moviesData.filter((movie) => {
-        return movie.genre === "Crime";
-      });
-      // console.log(crim)
-      setCrimeMovies(crim);
-
-      let bing = moviesData.filter((movie) => {
-        return movie.Binge === true;
-      });
-      // console.log(bing);
-      setbingeWatch(bing.slice(0,6));
-
-      let fine = moviesData.filter((movie) => {
-        return movie.duration <= "130";
-      });
-      // console.log(fine);
-      setpeacockFinest(fine.slice(0,6));
-    } catch (error) {
-      console.log("Error:", error);
-    }
+    fetchMovies();
   }, []);
 
   return (
@@ -62,11 +46,11 @@ const Home = () => {
       <Tags />
       <Banner />
       <Channel />
-      <Fav_show title="Your Fav Shows Now On Jio Cinema" movies={favMovies}/>
-      <Fav_show title="Drama Jio Cinema" movies = {dramaMovies}/>
-      <Fav_show title="Crime Movie On Jio Cinema" movies = {crimeMovies}/>
-      <Fav_show title="Binge-Worthy Originals On Jio Cinema" movies = {bingeWatch}/>
-      <Fav_show title="Peacock's Finest On Jio Cinema" movies= {peacockFinest}/>
+      <Fav_show title="Your Fav Shows Now On Jio Cinema" movies={favMovies} />
+      <Fav_show title="Drama Jio Cinema" movies={dramaMovies} />
+      <Fav_show title="Crime Movie On Jio Cinema" movies={crimeMovies} />
+      <Fav_show title="Binge-Worthy Originals On Jio Cinema" movies={bingeWatch} />
+      <Fav_show title="Peacock's Finest On Jio Cinema" movies={peacockFinest} />
     </>
   );
 };
