@@ -10,5 +10,10 @@
     padding: 15px 0px;
     display: flex;
     justify-content: space-between;
+    
+}
+.shows > a {
+    text-decoration: none;
+    color: inherit; /* Optional: Keep text color consistent */
 }
 

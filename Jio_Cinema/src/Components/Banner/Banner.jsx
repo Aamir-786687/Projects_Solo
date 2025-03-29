@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -12,15 +13,14 @@ const Banner = () => {
   useEffect(() => {
     const fetchShows = async () => {
       try {
-        let response = await fetch(
+        const response = await axios.get(
           "https://jio-cinema-ea348-default-rtdb.firebaseio.com/Shows.json"
         );
-        let data = await response.json();
-        setSliderShow(data || []);
+        setSliderShow(response.data || []);
       } catch (error) {
         console.error("Error fetching shows:", error);
       } finally {
-        setLoading(false);
+        setLoading(false); 
       }
     };
 
@@ -29,9 +29,9 @@ const Banner = () => {
 
   if (loading) {
     return (
-        <div className="loading"> 
+      <div className="loading">
         <h1>Loading....</h1>
-        </div>
+      </div>
     );
   }
 
@@ -57,11 +57,13 @@ const Banner = () => {
         {sliderShow.map((show, index) => (
           <SwiperSlide key={index} className="banner-slide">
             <div className="slide-content">
-              <img src={show.thumbnail_url} alt={show.title}/>
+              <img src={show.thumbnail_url} alt={show.title} />
               <div className="overlay"></div>
               <div className="details">
-                <img  src={show.logo} alt={show.title} />
-                <p>{show.language} • {show.genre} • {show.rating || "U/A 13+"} </p>
+                <img src={show.logo} alt={show.title} />
+                <p>
+                  {show.language} • {show.genre} • {show.rating || "U/A 13+"}
+                </p>
               </div>
             </div>
           </SwiperSlide>
