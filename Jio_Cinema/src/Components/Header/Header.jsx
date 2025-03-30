@@ -36,8 +36,8 @@ const Header = (props) => {
           <ul className="navLinks">
             <li className="link"><Link to="/">Home</Link></li>
             <li className="link"><Link to="Movies">Movies</Link></li>
+            <li className="link"><Link to='Shows'> TV Shows </Link></li>
             <li className="link">Sports</li>
-            <li className="link">TV Shows</li>
             <li className="link">More</li>
             <ChevronDown />
           </ul>

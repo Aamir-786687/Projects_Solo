@@ -48,6 +48,12 @@
     left: 40px;
     z-index: 2;
   }
+
+  .details > img{
+    height: 120px;
+    width: auto;
+    margin: 20px;
+  }
   
   .logo {
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));

@@ -21,7 +21,7 @@ const Channel = () => {
         <img src={ch4} alt="Channel4" />
         <img src={ch6} alt="Channel6" />
         <img src={ch1} alt="Channel1" />
-        <img src={ch7} alt="Channel7" />
+        
       </div>
     </>
   );

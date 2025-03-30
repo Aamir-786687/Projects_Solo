@@ -54,13 +54,13 @@ const Banner = () => {
         }}
         className="banner-swiper"
       >
-        {sliderShow.map((show, index) => (
+        {sliderShow.slice(0, 7).map((show, index) => (
           <SwiperSlide key={index} className="banner-slide">
             <div className="slide-content">
               <img src={show.thumbnail_url} alt={show.title} />
               <div className="overlay"></div>
               <div className="details">
-                <img src={show.logo} alt={show.title} />
+                <img src={show.logo} alt={show.title} /> 
                 <p>
                   {show.language} • {show.genre} • {show.rating || "U/A 13+"}
                 </p>

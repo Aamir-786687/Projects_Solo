@@ -866,59 +866,140 @@
     }
   ],
   "Shows": [
-        {
-            "title": "Laughter Chef",
-            "genre": "Comedy",
-            "id": 1,
-            "thumbnail_url": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
-            "fav": true,
-            "language": "Hindi"
-        },
-        {
-            "title": "Raodies",
-            "genre": "Reality",
-            "id": 2,
-            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/verticaltv-1739443658455.jpg",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6262/1741440046262-t",
-            "fav": true,
-            "language": "Hindi"
-        },
-        {
-            "title": "Pokemon",
-            "genre": "Animaition",
-            "id": 3,
-            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/pokemon-1707725560430.jpg",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6940/1734433856940-t",
-            "fav": true,
-            "language": "Hin, Eng, +2 more"
-        },
-        {
-            "title": "Sanam teri Kasam",
-            "genre": "Drama",
-            "id": 4,
-            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
-            "fav": true,
-            "language": "Hindi"
-        },
-        {
-            "title": "Big Boss",
-            "genre": "Reality",
-            "id": 5,
-            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/tv-1737455056722.jpg",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6551/1737622856551-t",
-            "fav": true,
-            "language": "Hindi"
-        },
-        {
-            "title": "Fifty Shades of Grey",
-            "genre": "Drama",
-            "id": 6,
-            "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/vertical-carousel-tv_50shades-1727778969348.jpg",
-            "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9124/1739443359124-t",
-            "fav": true,
-            "language": "Hin, Eng, +2 more"
-        }
-    ]
+    {
+      "title": "Laughter Chef",
+      "genre": "Comedy",
+      "id": 1,
+      "thumbnail_url": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Raodies",
+      "genre": "Reality",
+      "id": 2,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/verticaltv-1739443658455.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6262/1741440046262-t",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Pokemon",
+      "genre": "Animaition",
+      "id": 3,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/pokemon-1707725560430.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6940/1734433856940-t",
+      "fav": true,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "Sanam teri Kasam",
+      "genre": "Drama",
+      "id": 4,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Big Boss",
+      "genre": "Reality",
+      "id": 5,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/tv-1737455056722.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6551/1737622856551-t",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Asur",
+      "genre": "Mystery, Thriller",
+      "id": 6,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDZkOGQzMjItNTliOC00NTIxLTg4ODEtNTMxZWY1OTk5ZWM0XkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6334/1735212596334-t",
+      "fav": false,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "Fifty Shades of Grey",
+      "genre": "Drama",
+      "id": 7,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/vertical-carousel-tv_50shades-1727778969348.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9124/1739443359124-t",
+      "fav": true,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Thriller",
+      "id": 9,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjMxODk1NzAzMF5BMl5BanBnXkFtZTgwNjY4NTYzOTE@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5402/1740560335402-t",
+      "fav": true,
+      "language": "Eng, Hin"
+    },
+    {
+      "title": "Scam 1992",
+      "genre": "Biography, Crime",
+      "id": 10,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjY0ODkzNzItYTliNS00NjVjLWFjODctYTVmZjE2NzNiM2JhXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/8501/1739368298501-t",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "The Crown",
+      "genre": "Biography, Drama",
+      "id": 11,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BM2RlYjAwNzEtZDNhNi00Mjk5LWE2NTAtZDU0MWEzNzI4M2FhXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6304/1737609446304-t",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "Made in Heaven",
+      "genre": "Drama",
+      "id": 12,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMTk4N2M1NzEtNGQ1Zi00ZDY0LTlmMDgtZjc3MzRmZTgxYzA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5107/1739967545107-t",
+      "fav": true,
+      "language": "Hindi, Eng"
+    },
+    {
+      "title": "Peaky Blinders",
+      "genre": "Crime, Drama",
+      "id": 13,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjAzYWI5ZTgtMGNmMi00ZDFhLTk5YmUtNzFhYzQ4ZWM4ZDIyXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/7772/1740560217772-t",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "The Vampire Diaries",
+      "genre": "Fantasy, Romance",
+      "id": 15,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjA4NzM4NTY5MV5BMl5BanBnXkFtZTcwNTgzNzU2Mw@@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9261/1739368319261-t",
+      "fav": true,
+      "language": "Eng, Hin"
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "genre": "Comedy, Crime",
+      "id": 16,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjMxNzI4ODcwOV5BMl5BanBnXkFtZTgwNDg1OTk3MTE@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9404/1739443449404-t",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "The Night Manager (India)",
+      "genre": "Thriller",
+      "id": 17,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYTFiMjUzM2EtY2MzYi00YTA3LTgyMjItZWI1NjAwZGEzYjZlXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6825/1737609506825-t",
+      "fav": false,
+      "language": "Hindi"
+    }
+  ]
 }
