@@ -58,15 +58,14 @@ const MoviesList = () => {
             <ul>
                 <li><a href="/" className="active" data-tooltip="Home"><Home /></a></li>
                 <li><a href="#" data-tooltip="Search"><Search /></a></li>
-                <li><a href="movies" data-tooltip="Movies"><Film /></a></li>
-                <li><a href="Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
+                <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
+                <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
                 <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
-                 <li><a href="#" data-tooltip="Settings"><Settings /></a></li>
+                <li><a href="#" data-tooltip="Settings"><Settings /></a></li>
             </ul>
         </nav>
       </aside>
 
-      {/* Main Content */}
       <main className="main-content">
         <h1 className="page-title">Movies</h1>
 

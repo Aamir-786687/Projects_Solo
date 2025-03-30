@@ -60,8 +60,8 @@ const ShowsList = () => {
           <ul>
                 <li><a href="/" className="active" data-tooltip="Home"><Home /></a></li>
                 <li><a href="#" data-tooltip="Search"><Search /></a></li>
-                <li><a href="movies" data-tooltip="Movies"><Film /></a></li>
-                <li><a href="Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
+                <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
+                <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
                 <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
                  <li><a href="#" data-tooltip="Settings"><Settings /></a></li>
             </ul>
