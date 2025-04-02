@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import axios from "axios"
 import { Home, Search, Film, Heart, Clapperboard, Settings, } from "lucide-react"
 import JClogo from "../../assets/jio-logo.png";
+import pic from '../../assets/Avatar.png'
 import "./movieList.css"
 
 const MoviesList = () => {
@@ -61,7 +62,7 @@ const MoviesList = () => {
                 <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
                 <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
                 <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
-                <li><a href="#" data-tooltip="Settings"><Settings /></a></li>
+                <li><a href="#"><img src={pic} alt="Avatar" /></a></li>
             </ul>
         </nav>
       </aside>

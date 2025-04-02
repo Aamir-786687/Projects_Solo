@@ -59,6 +59,11 @@
     width: 20px;
     height: 20px;
   }
+
+  .nav-menu img {
+    width: 25px;
+    height: 25px;
+  }
   
   /* Main Content */
   .main-content {
@@ -116,14 +121,14 @@
     justify-content: space-between;
   }
   
-  .movie-rating,
+  /* .movie-rating,
   .movie-duration {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.9);
-  }
+  } */
   
   .movie-title {
-    font-size: 2rem;
+    font-size: 18px;
     margin-bottom: 5px;
     white-space: nowrap;
     overflow: hidden;

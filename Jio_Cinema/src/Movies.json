@@ -863,78 +863,136 @@
       "id": "39",
       "fav": false,
       "Binge": true
+    },
+    {
+      "title": "Sanam Teri Kasam",
+      "genre": "Drama",
+      "release_date": "2016-02-05",
+      "rating": 7.3,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
+      "director": "Radhika Rao, Vinay Sapru",
+      "cast": [
+        "Harshvardhan Rane",
+        "Mawra Hocane",
+        "Vijay Raaz"
+      ],
+      "duration": 154,
+      "tags": [
+        "romantic drama",
+        "tragic love story",
+        "music-driven"
+      ],
+      "description": "A heartfelt love story of a misunderstood girl and a rugged yet kind-hearted man, bound together by fate and tragedy.",
+      "id": 4,
+      "fav": true,
+      "language": "Hindi"
     }
+    
   ],
   "Shows": [
     {
       "title": "Laughter Chef",
       "genre": "Comedy",
+      "release_date": "2024-03-15",
       "id": 1,
+      "rating": 7.5,
       "thumbnail_url": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+      "director": "Rajeev Mehta",
       "fav": true,
       "language": "Hindi"
     },
     {
       "title": "Raodies",
       "genre": "Reality",
+      "release_date": "2003-10-01",
       "id": 2,
+      "rating": 7.2,
       "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/verticaltv-1739443658455.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6262/1741440046262-t",
+      "director": "Raghu Ram",
       "fav": true,
       "language": "Hindi"
     },
     {
       "title": "Pokemon",
-      "genre": "Animaition",
+      "genre": "Animation",
+      "release_date": "1997-04-01",
       "id": 3,
+      "rating": 8.1,
       "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/pokemon-1707725560430.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6940/1734433856940-t",
+      "director": "Kunihiko Yuyama",
       "fav": true,
       "language": "Hin, Eng, +2 more"
     },
     {
-      "title": "Sanam teri Kasam",
-      "genre": "Drama",
-      "id": 4,
-      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
-      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
-      "fav": true,
-      "language": "Hindi"
-    },
-    {
       "title": "Big Boss",
       "genre": "Reality",
-      "id": 5,
+      "release_date": "2006-11-03",
+      "id": 4,
+      "rating": 6.9,
       "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/tv-1737455056722.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6551/1737622856551-t",
+      "director": "Endemol Shine India",
       "fav": true,
       "language": "Hindi"
     },
     {
       "title": "Asur",
       "genre": "Mystery, Thriller",
-      "id": 6,
+      "release_date": "2020-03-02",
+      "id": 5,
+      "rating": 8.5,
       "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDZkOGQzMjItNTliOC00NTIxLTg4ODEtNTMxZWY1OTk5ZWM0XkEyXkFqcGc@._V1_.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6334/1735212596334-t",
+      "director": "Oni Sen",
       "fav": false,
       "language": "Hin, Eng, +2 more"
     },
     {
       "title": "Fifty Shades of Grey",
       "genre": "Drama",
-      "id": 7,
+      "release_date": "2015-02-13",
+      "id": 6,
+      "rating": 4.1,
       "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/vertical-carousel-tv_50shades-1727778969348.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9124/1739443359124-t",
+      "director": "Sam Taylor-Johnson",
       "fav": true,
       "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "The Family Man",
+      "genre": "Action, Thriller",
+      "id": 7,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDc3NWMwNGMtYjc3Mi00NzU5LWFiYjgtMTJjZGE3ZmFiNzRjXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+      "rating": 8.7,
+      "release_date": "2019-09-20",
+      "director": "Raj & DK",
+      "fav": true,
+      "language": "Hindi"
+    },    
+    {
+      "title": "Kota Factory",
+      "genre": "Drama",
+      "release_date": "2019-04-16",
+      "id": 8,
+      "rating": 9.0,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BY2U5MjY1NWEtZDI2MS00NTlhLWEyODQtYzE0MzY3NDUyNzE3XkEyXkFqcGc@._V1_.jpg",
+      "director": "Raghav Subbu"
     },
     {
       "title": "Stranger Things",
       "genre": "Sci-Fi, Thriller",
       "id": 9,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjMxODk1NzAzMF5BMl5BanBnXkFtZTgwNjY4NTYzOTE@._V1_.jpg",
+      "thumbnail_url": "https://rukminim3.flixcart.com/image/850/1000/jr3t5e80/poster/a/w/f/medium-stranger-things-poster-for-room-office-13-inch-x-19-inch-original-imafcww8v99r4qhh.jpeg?q=20&crop=false",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5402/1740560335402-t",
+      "rating": 8.7,
+      "release_date": "2016-07-15",
+      "director": "Duffer Brothers",
       "fav": true,
       "language": "Eng, Hin"
     },
@@ -942,8 +1000,11 @@
       "title": "Scam 1992",
       "genre": "Biography, Crime",
       "id": 10,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjY0ODkzNzItYTliNS00NjVjLWFjODctYTVmZjE2NzNiM2JhXkEyXkFqcGc@._V1_.jpg",
+      "thumbnail_url": "https://images.slivcdn.com/videoasset_images/scam1992_3june_portrait_thumb.jpg?w=172&q=high",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/8501/1739368298501-t",
+      "rating": 9.4,
+      "release_date": "2020-10-09",
+      "director": "Hansal Mehta",
       "fav": true,
       "language": "Hindi"
     },
@@ -951,8 +1012,11 @@
       "title": "The Crown",
       "genre": "Biography, Drama",
       "id": 11,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BM2RlYjAwNzEtZDNhNi00Mjk5LWE2NTAtZDU0MWEzNzI4M2FhXkEyXkFqcGc@._V1_.jpg",
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71f97nf-u9L._AC_UF1000,1000_QL80_.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6304/1737609446304-t",
+      "rating": 8.6,
+      "release_date": "2016-11-04",
+      "director": "Peter Morgan",
       "fav": false,
       "language": "Eng"
     },
@@ -960,8 +1024,11 @@
       "title": "Made in Heaven",
       "genre": "Drama",
       "id": 12,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMTk4N2M1NzEtNGQ1Zi00ZDY0LTlmMDgtZjc3MzRmZTgxYzA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail_url": "https://i.pinimg.com/564x/d3/c2/db/d3c2dbfafce1557ad2e162853b5891bb.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5107/1739967545107-t",
+      "rating": 8.3,
+      "release_date": "2019-03-08",
+      "director": "Zoya Akhtar, Prashant Nair",
       "fav": true,
       "language": "Hindi, Eng"
     },
@@ -969,17 +1036,33 @@
       "title": "Peaky Blinders",
       "genre": "Crime, Drama",
       "id": 13,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjAzYWI5ZTgtMGNmMi00ZDFhLTk5YmUtNzFhYzQ4ZWM4ZDIyXkEyXkFqcGc@._V1_.jpg",
+      "thumbnail_url": "https://rukminim2.flixcart.com/image/850/1000/k0y6cnk0/poster/9/f/6/medium-peaky-blinders-tv-series-poster-for-room-office-13-inch-x-original-imafkm3uhgwyy3gn.jpeg?q=20&crop=false",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/7772/1740560217772-t",
+      "rating": 8.8,
+      "release_date": "2013-09-12",
+      "director": "Steven Knight",
       "fav": false,
       "language": "Eng"
+    },
+    {
+      "title": "Panchayat",
+      "genre": "Comedy, Drama",
+      "release_date": "2020-04-03",
+      "id": 14,
+      "rating": 8.9,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYzkwZGNkYTctZDc2MS00OWM2LWI2NTUtMTM2ZGMzMTY0N2Q1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "director": "Deepak Kumar Mishra",
+      "fav": true
     },
     {
       "title": "The Vampire Diaries",
       "genre": "Fantasy, Romance",
       "id": 15,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjA4NzM4NTY5MV5BMl5BanBnXkFtZTcwNTgzNzU2Mw@@._V1_.jpg",
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/633fece25c6f80247146a2a3-the-vampire-diaries-poster-frameless.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9261/1739368319261-t",
+      "rating": 7.7,
+      "release_date": "2009-09-10",
+      "director": "Julie Plec, Kevin Williamson",
       "fav": true,
       "language": "Eng, Hin"
     },
@@ -987,8 +1070,11 @@
       "title": "Brooklyn Nine-Nine",
       "genre": "Comedy, Crime",
       "id": 16,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjMxNzI4ODcwOV5BMl5BanBnXkFtZTgwNDg1OTk3MTE@._V1_.jpg",
+      "thumbnail_url": "https://rukminim2.flixcart.com/image/850/1000/jsrtn680/poster/p/j/a/medium-brooklyn99c-brooklyn-nine-nine-tv-show-poster-for-room-original-imafe9nznefmvz8c.jpeg?q=90&crop=false",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9404/1739443449404-t",
+      "rating": 8.4,
+      "release_date": "2013-09-17",
+      "director": "Michael Schur, Dan Goor",
       "fav": false,
       "language": "Eng"
     },
@@ -996,10 +1082,34 @@
       "title": "The Night Manager (India)",
       "genre": "Thriller",
       "id": 17,
-      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYTFiMjUzM2EtY2MzYi00YTA3LTgyMjItZWI1NjAwZGEzYjZlXkEyXkFqcGc@._V1_.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/The_Night_Manager_%28Indian_TV_series%29.jpg",
       "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6825/1737609506825-t",
+      "rating": 7.6,
+      "release_date": "2023-02-17",
+      "director": "Sandeep Modi",
       "fav": false,
       "language": "Hindi"
+    },
+    {
+      "title": "Sacred Games",
+      "genre": "Crime, Thriller",
+      "release_date": "2018-07-06",
+      "rating": 8.5,
+      "id": 18,
+      "thumbnail_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ecde0e70804199.5baf99ea34f28.jpg",
+      "director": "Anurag Kashyap, Vikramaditya Motwane",
+      "fav": false
+      
+    },
+    {
+      "title": "Mirzapur",
+      "genre": "Action, Crime, Thriller",
+      "release_date": "2018-11-16",
+      "rating": 8.3,
+      "id": 19,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/815P1fCHvjL._AC_UF1000,1000_QL80_.jpg",
+      "fav": false
+      
     }
   ]
 }
