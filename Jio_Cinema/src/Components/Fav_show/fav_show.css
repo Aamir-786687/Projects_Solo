@@ -1,19 +1,49 @@
 .fav {
     width: 100%;
-    background-color: #060707;
-    padding: 5px 2%;
-}
-
-.shows {
+    background-color: transparent;
+    padding: 5px 0;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .shows {
     width: 100%;
-    /* background-color: red; */
     padding: 15px 0px;
     display: flex;
-    justify-content: space-between;
-    
-}
-.shows > a {
+    gap: 15px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  
+  .shows::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  .shows::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .shows::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  
+  .shows > a {
     text-decoration: none;
-    color: inherit; /* Optional: Keep text color consistent */
-}
-
+    color: inherit;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .shows > a:hover {
+    transform: scale(1.05);
+  }
+  
+  

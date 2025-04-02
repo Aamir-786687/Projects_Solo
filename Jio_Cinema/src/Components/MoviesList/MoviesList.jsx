@@ -5,6 +5,7 @@ import { Home, Search, Film, Heart, Clapperboard, Settings, } from "lucide-react
 import JClogo from "../../assets/jio-logo.png";
 import pic from '../../assets/Avatar.png'
 import "./movieList.css"
+import Banner from "../Banner/Banner";
 
 const MoviesList = () => {
   const [movies, setMovies] = useState([])
@@ -49,6 +50,7 @@ const MoviesList = () => {
   }
 
   return (
+    <>
     <div className="movies-page">
       {/* Sidebar */}
       <aside className="sidebar">
@@ -92,6 +94,7 @@ const MoviesList = () => {
         </div>
       </main>
     </div>
+    </>
   )
 }
 
