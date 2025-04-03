@@ -37,7 +37,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/" data-tooltip="Home">
               <User />
             </Link>
           </li>

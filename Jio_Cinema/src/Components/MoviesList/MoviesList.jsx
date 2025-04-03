@@ -5,7 +5,7 @@ import { Home, Search, Film, Heart, Clapperboard, Settings, } from "lucide-react
 import JClogo from "../../assets/jio-logo.png";
 import pic from '../../assets/Avatar.png'
 import "./movieList.css"
-import Banner from "../Banner/Banner";
+// import Banner from "../Banner/Banner";
 
 const MoviesList = () => {
   const [movies, setMovies] = useState([])
@@ -64,7 +64,7 @@ const MoviesList = () => {
                 <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
                 <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
                 <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
-                <li><a href="#"><img src={pic} alt="Avatar" /></a></li>
+                <li><a href="/" data-tooltip="Home"><img src={pic} alt="Avatar" /></a></li>
             </ul>
         </nav>
       </aside>

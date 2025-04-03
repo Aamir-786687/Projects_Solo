@@ -128,7 +128,7 @@ const Home = () => {
                 />
                 <h4>{movie.title}</h4>
                 <div className="progress-bar">
-                  <div
+                  <div 
                     className="progress"
                     style={{ width: `${Math.random() * 80 + 20}%` }}
                   ></div>

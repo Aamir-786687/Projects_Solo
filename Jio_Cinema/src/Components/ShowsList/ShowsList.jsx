@@ -64,7 +64,7 @@ const ShowsList = () => {
                 <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
                 <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
                 <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
-                <li><a href="#"><img src={pic} alt="Avatar" /></a></li>
+                <li><a href="/" data-tooltip="Home" ><img src={pic} alt="Avatar" /></a></li>
             </ul>
         </nav>
       </aside>
