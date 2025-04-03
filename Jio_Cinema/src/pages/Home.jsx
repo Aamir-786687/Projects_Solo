@@ -1,48 +1,54 @@
-"use client"
+"use client";
 
-import React, { useEffect, useState } from "react"
-import Header from "../Components/Header/Header"
-import Sidebar from "../Components/Sidebar/Sidebar"
-import Fav_show from "../Components/Fav_show/Fav_show"
-import { Play, Plus } from "lucide-react"
-import "../styles/home.css"
+import React, { useEffect, useState } from "react";
+import Header from "../Components/Header/Header";
+import Sidebar from "../Components/Sidebar/Sidebar";
+import Fav_show from "../Components/Fav_show/Fav_show";
+import { Play, Plus } from "lucide-react";
+import "../styles/home.css";
 
 const Home = () => {
-  const [movies, setMovies] = useState([])
-  const [favMovies, setFavMovies] = useState([])
-  const [dramaMovies, setDramaMovies] = useState([])
-  const [crimeMovies, setCrimeMovies] = useState([])
-  const [bingeWatch, setBingeWatch] = useState([])
-  const [featuredMovie, setFeaturedMovie] = useState(null)
-  const [searchVisible, setSearchVisible] = useState(false)
+  const [movies, setMovies] = useState([]);
+  const [favMovies, setFavMovies] = useState([]);
+  const [dramaMovies, setDramaMovies] = useState([]);
+  const [crimeMovies, setCrimeMovies] = useState([]);
+  const [bingeWatch, setBingeWatch] = useState([]);
+  const [featuredMovie, setFeaturedMovie] = useState(null);
+  const [searchVisible, setSearchVisible] = useState(false);
 
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await fetch("https://jio-cinema-ea348-default-rtdb.firebaseio.com/movies.json")
-        const data = await response.json()
+        const response = await fetch(
+          "https://jio-cinema-ea348-default-rtdb.firebaseio.com/movies.json"
+        );
+        const data = await response.json();
 
         if (data && Array.isArray(data)) {
-          setMovies(data)
+          setMovies(data);
 
           // Set a featured movie (using one of the favorites)
-          const featured = data.find((movie) => movie.fav === true)
-          setFeaturedMovie(featured || data[0])
+          const featured = data.find((movie) => movie.fav === true);
+          setFeaturedMovie(featured || data[0]);
 
-          setFavMovies(data.filter((movie) => movie.fav === true))
-          setDramaMovies(data.filter((movie) => movie.genre === "Drama").slice(0, 6))
-          setCrimeMovies(data.filter((movie) => movie.genre === "Crime"))
-          setBingeWatch(data.filter((movie) => movie.Binge === true).slice(0, 6))
+          setFavMovies(data.filter((movie) => movie.fav === true));
+          setDramaMovies(
+            data.filter((movie) => movie.genre === "Drama").slice(0, 6)
+          );
+          setCrimeMovies(data.filter((movie) => movie.genre === "Crime"));
+          setBingeWatch(
+            data.filter((movie) => movie.Binge === true).slice(0, 6)
+          );
         } else {
-          console.log("Data format not supported:", data)
+          console.log("Data format not supported:", data);
         }
       } catch (error) {
-        console.log("Error:", error)
+        console.log("Error:", error);
       }
-    }
+    };
 
-    fetchMovies()
-  }, [])
+    fetchMovies();
+  }, []);
 
   return (
     <div className="home-container">
@@ -52,21 +58,30 @@ const Home = () => {
         <Header movies={movies} />
 
         {featuredMovie && (
-          <div className="hero-banner" style={{ backgroundImage: `url(${featuredMovie.thumbnail_url})` }}>
+          <div
+            className="hero-banner"
+            style={{ backgroundImage: `url(${featuredMovie.thumbnail_url})` }}
+          >
             <div className="hero-content">
               <div className="movie-title-container">
                 <h1 className="movie-title">{featuredMovie.title}</h1>
                 <div className="newly-added">Newly Added</div>
                 <div className="movie-meta">
-                  <span>{featuredMovie.release_date?.slice(0, 4) || "2024"}</span>
+                  <span>
+                    {featuredMovie.release_date?.slice(0, 4) || "2024"}
+                  </span>
                   <span className="dot">•</span>
                   <span className="rating">
-                    {featuredMovie.rating ? `U/A ${Math.floor(featuredMovie.rating)}+` : "U/A 13+"}
+                    {featuredMovie.rating
+                      ? `U/A ${Math.floor(featuredMovie.rating)}+`
+                      : "U/A 13+"}
                   </span>
                   <span className="dot">•</span>
                   <span>
                     {featuredMovie.duration
-                      ? `${Math.floor(featuredMovie.duration / 60)}h ${featuredMovie.duration % 60}m`
+                      ? `${Math.floor(featuredMovie.duration / 60)}h ${
+                          featuredMovie.duration % 60
+                        }m`
                       : "1h 45m"}
                   </span>
                   <span className="dot">•</span>
@@ -82,7 +97,9 @@ const Home = () => {
                     featuredMovie.tags.map((tag, index) => (
                       <React.Fragment key={index}>
                         <span className="dot">|</span>
-                        <span>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
+                        <span>
+                          {tag.charAt(0).toUpperCase() + tag.slice(1)}
+                        </span>
                       </React.Fragment>
                     ))}
                 </div>
@@ -103,11 +120,22 @@ const Home = () => {
         <div className="content-section">
           <h2 className="section-title">Continue Watching for You</h2>
           <div className="continue-watching">
-            {favMovies.map((movie, index) => (
+            {favMovies.slice(0, 5).map((movie, index) => (
               <div key={index} className="continue-item">
-                <img src={movie.thumbnail_url || "/placeholder.svg"} alt={movie.title} />
+                <img
+                  src={movie.continue_Watch || "/placeholder.svg"}
+                  alt={movie.title}
+                />
+                <h4>{movie.title}</h4>
                 <div className="progress-bar">
-                  <div className="progress" style={{ width: `${Math.random() * 80 + 20}%` }}></div>
+                  <div
+                    className="progress"
+                    style={{ width: `${Math.random() * 80 + 20}%` }}
+                  ></div>
+                </div>
+                <div className="continue-overlay">
+                  <button className="overlay-btn">View More Details</button>
+                  <button className="overlay-btn">Continue Watching</button>
                 </div>
               </div>
             ))}
@@ -115,19 +143,23 @@ const Home = () => {
         </div>
 
         <div className="fav-section">
-  <h2 className="section-title">Your Favorite Movies</h2>
-  <div className="fav-movies">
-    {favMovies.map((movie, index) => (
-      <div key={index} className="fav-item">
-        <img src={movie.thumbnail_url || "/placeholder.svg"} alt={movie.title} className="fav-img" />
-        <div className="progress-bar">
+          <h2 className="section-title">Your Favorite Movies</h2>
+          <div className="fav-movies">
+            {favMovies.map((movie, index) => (
+              <div key={index} className="fav-item">
+                <img
+                  src={movie.thumbnail_url || "/placeholder.svg"}
+                  alt={movie.title}
+                  className="fav-img"
+                />
+                {/* <div className="progress-bar">
           <div className="progress" style={{ width: `${movie.watchProgress || 0}%` }}></div>
+        </div> */}
+                <p className="fav-title">{movie.title}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <p className="fav-title">{movie.title}</p>
-      </div>
-    ))}
-  </div>
-</div>
 
         <div className="content-section">
           <Fav_show title="Drama Movies" movies={dramaMovies} />
@@ -142,8 +174,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
-
+export default Home;

@@ -134,9 +134,14 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+
 .content-section {
   padding: 0 5%;
   margin-bottom: 40px;
+}
+
+.content-section > img{
+  margin-left: 100px;
 }
 
 .section-title {
@@ -151,6 +156,7 @@
   overflow-x: auto;
   padding-bottom: 15px;
 }
+
 
 .continue-watching::-webkit-scrollbar {
   height: 5px;
@@ -171,6 +177,10 @@
   min-width: 250px;
   border-radius: 8px;
   overflow: hidden;
+  background: #1a1a1a;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .continue-item img {
@@ -178,6 +188,44 @@
   height: 140px;
   object-fit: cover;
 }
+/* Hover Overlay */
+.continue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.continue-item:hover .continue-overlay {
+  opacity: 1;
+}
+
+/* View More & Continue Watching Buttons */
+.overlay-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.overlay-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
 
 .progress-bar {
   position: absolute;
@@ -186,50 +234,55 @@
   right: 0;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.2);
-}
+} 
 
-.progress {
+ .progress {
   height: 100%;
   background-color: #e50914;
 }
 
-.fav-movies, .fav-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  
-  .fav-item {
-    width: 180px; /* Set a fixed width */
-    text-align: center;
-  }
-  
-  .fav-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  .fav-img:hover {
-    transform: scale(1.05);
-  }
-  
-  .fav-title {
-    margin-top: 5px;
-    font-size: 14px;
-    color: white;
-  }
-  
-  .fav-section {
-    padding: 20px 0;
-  }
-  
-  .fav-movies {
-    display: flex;
-    overflow-x: auto;
-    padding-bottom: 10px;
-  }
+/* Favorite Movie Section */
+.fav-section {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  /* align-items: center; */
+}
+
+.fav-movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  /* justify-content: center; */
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.fav-item {
+  width: 180px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.fav-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.fav-img:hover {
+  transform: scale(1.05);
+}
+
+.fav-title {
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
+
   
 
 
