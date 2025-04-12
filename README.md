@@ -1,2 +1,2 @@
-# Projects_Solo
-This repo contains all the solo projects I created.
+### Projects_Solo
+This repo contains the Jio Hotstar solo projects I've created.
